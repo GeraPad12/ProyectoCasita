@@ -96,9 +96,14 @@ body {
 }
 
 .header .nav-links a{
-    font-size: 700;
+    font-size: 25px;
     color: #98232b;
     text-decoration: none;
+}
+
+.header .nav-links li a.activo{
+    font-size: 25px;
+    color: #245380;
 }
 
 .header .nav-links li a:hover{
@@ -475,11 +480,22 @@ body {
     margin-top: 50px;
     margin-bottom: 100px;
     width: 80%;
-    height: 630px;
+    height: 660px;
     background-image: url(/img/Contacto.jpeg);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+}
+
+.contacto button{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+form{
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 0px 0px 35px #0006;
 }
 
 .formContac{
@@ -505,7 +521,7 @@ input{
     border: none;
     border-left: 2px solid #666;
     background-color: #eee;
-    color: #eee;
+    color: rgb(81, 81, 81);
 }
 
 .comentarios{
@@ -517,7 +533,7 @@ input{
     border: none;
     border-left: 2px solid #666;
     background-color: #eee;
-    color: #eee;
+    color: rgb(81, 81, 81);
     resize: none;
 }
 

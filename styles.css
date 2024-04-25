@@ -156,7 +156,7 @@ body {
 }
 
 #hero .inicio button{
-    margin-top: 180%;
+    margin-top: 220%;
 }
 
 
@@ -480,9 +480,10 @@ body {
     margin-top: 50px;
     margin-bottom: 100px;
     width: 80%;
-    height: 660px;
+    height: 600px;
+    background-color: #ae9c98;
     background-image: url(/img/Contacto.jpeg);
-    background-size: cover;
+    background-size: contain;
     background-position: top;
     background-repeat: no-repeat;
 }
@@ -532,6 +533,7 @@ input{
     margin-top: 10px;
     border: none;
     border-left: 2px solid #666;
+    border-bottom: 2px solid #666;
     background-color: #eee;
     color: rgb(81, 81, 81);
     resize: none;

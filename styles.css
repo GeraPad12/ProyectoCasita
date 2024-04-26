@@ -330,9 +330,16 @@ body {
 }
 
 #sucursales button{
+    /* margin: 5px; */
     font-size: 1em;
     background-color: beige; /* #f5e49e */
     cursor: pointer;
+}
+
+.btnSucu{
+    font-size: 1em;
+    background-color: beige; /* #f5e49e */
+    cursor: pointer; 
 }
 
 #sucursales button:hover{
